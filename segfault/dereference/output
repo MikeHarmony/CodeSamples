@@ -1,0 +1,6 @@
+mike@Precision-5820-Mike:~/c_examples/interview/segfault/dereference$ gcc main.c -o test && ./test 
+Created
+Connected
+TX[hello]
+Segmentation fault (core dumped)
+

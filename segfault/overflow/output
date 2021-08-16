@@ -1,0 +1,22 @@
+mike@Precision-5820-Mike:~/c_examples/interview/segfault/overflow$ gcc main.c -o test && ./test 
+Created
+Connected
+TX[HEAD / HTTP/1.1
+Host: 192.168.0.3:80
+User-Agent: MyApp/1.0.0
+Accept: */*
+
+]
+RX[269][HTTP/1.1 200 OK
+Date: Mon, 16 Aug 2021 17:23:49 GMT
+Server: Hydra/0.1.8
+Accept-Ranges: bytes
+Connection: Keep-Alive
+Keep-Alive: timeout=10, max=100
+Content-Length: 8028
+Last-Modified: Tue, 01 Oct 2019 08:26:15 GMT
+ETag: "8028-18375"
+Content-Type: text/html
+
+]
+Aborted (core dumped)
